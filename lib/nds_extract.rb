@@ -17,7 +17,6 @@ end
 
 
   def gross_for_director(director_data)
-  pp director_data
   counter = 0
   sum = 0
   while counter < director_data[:movies].length do 
